@@ -502,9 +502,9 @@ end
 
 --Five page
 local page5 = venyx:addPage("Discord", 5012544693)
-local Discord = page5:addSection("Mission Farm")
+local Discord = page5:addSection("Missão Farm")
 
-Discord:addButton("Copy Discord Link", function()
+Discord:addButton("Copiar Discord Link", function()
     setclipboard("https://discord.gg/Pv7CCYzZ4a")
 end)
     
